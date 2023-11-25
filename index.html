@@ -3,16 +3,83 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Práticas Integradoras Atividade Prática</title>
+    <title>Fanpage de Bichinhos</title>
+    <style>
+      body {
+        font-family: sans-serif;
+      }
+      h1 {
+        text-align: center;
+      }
+      h2 {
+        text-align: center;
+        font-style: italic;
+      }
+      img {
+        display: block;
+        margin: 0 auto;
+        max-height: 400px;
+      }
+      details {
+        margin: 0 auto;
+        width: 50%;
+      }
+      summary {
+        font-weight: bold;
+      }
+
+      .descriptive-text {
+        max-width: 200px;
+      }
+    </style>
   </head>
   <body>
-    <h1>Título, ei-lo!</h1>
-    <h2>Este é o subtítulo.</h2>
-    <p>
-      Lorem ipsum dolor, sit amet consectetur adipisicing elit. Excepturi
-      voluptatem quod assumenda aliquam. Voluptatibus quasi odio officiis sint
-      harum sit provident maiores nostrum dignissimos, minima libero ad iusto,
-      mollitia atque.
-    </p>
+    <h1>Fanpage de Bichinhos</h1>
+    <h2>Os bichinhos mais fofos que você vai ver hoje.</h2>
+    <div
+      style="display: flex; justify-content: space-between; padding: 100px 50px"
+    >
+      <div>
+        <h3 id="diego-img-label">Diego Rabicó, o Regresso</h3>
+        <img
+          src="images/diego-rabico-cone.jpg"
+          alt="Diego Rabicó, o Regresso"
+          aria-labeledby="diego-img-label"
+          aria-details="diego-img-details"
+          title="Diego Rabicó, o Regresso"
+        />
+        <details id="diego-img-details">
+          <summary>Descrição da imagem</summary>
+          <p class="descriptive-text">
+            Imagem de um gato laranja e branco, com a cabeça dentro de um cone,
+            colar elizabetano, flexível e com detalhes em vermelho. Ele está
+            sentado no chão de porcelanato cor creme e olha para a câmera com
+            uma expressão de descontentamento.
+          </p>
+        </details>
+      </div>
+      <img
+        src="https://i.pinimg.com/originals/7a/90/77/7a9077ee18feed3771dfb0071e72e45f.png"
+      />
+      <div>
+        <h3 id="bidu-img-label">Bidu Jorge, o Irrequieto</h3>
+        <img
+          src="images/bidu-jorge-gangsta.jpg"
+          alt="Bidu Jorge, o Irrequieto"
+          aria-labeledby="bidu-img-label"
+          aria-details="bidu-img-details"
+          title="Bidu Jorge, o Irrequieto"
+        />
+        <details id="bidu-img-details">
+          <summary>Descrição da imagem</summary>
+          <p class="descriptive-text">
+            Um cão preto e branco, sendo segurado em pé por uma pessoa que não
+            aparece no quadro. Ele tem uma corrente prateada que pode ser
+            considerada grossa e olha para a câmera com uma expressão serena,
+            lembrando um pouco a do rapper Snoop Dogg
+          </p>
+        </details>
+      </div>
+    </div>
   </body>
 </html>
