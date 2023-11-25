@@ -1,5 +1,5 @@
 # descomplica-pratica
-Página criada para a atividade prática do curso de Prática Integradora de Desenvolvimento de Apps.
+Página criada para a atividade prática da disciplina Prática Integradora de Desenvolvimento de Apps do curso de Análise e Desenvolvimento de Sistemas.
 
 ## O que é:
 Uma fanpage de bichinhos para os dois bichinhos mais fofos que você verá hoje: <i>Diego Rabicó e Bidu Jorge</i>. Eles são irmãos de mães diferentes, adotados na mesma época, retirados da rua e muito amados hoje.
