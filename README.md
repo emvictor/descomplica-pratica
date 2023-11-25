@@ -12,6 +12,7 @@ Através do <i>clone</i> do repositório ou o download dos arquivos.
 - Execute o seguinte comando no seu terminal:
 ```
 git clone https://github.com/emvictor/descomplica-pratica
+git pull origin main
 ```
 - Em seguida, abra o arquivo `index.html` com seu navegador de preferência.
 
